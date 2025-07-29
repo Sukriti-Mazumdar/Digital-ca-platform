@@ -1,0 +1,27 @@
+.auth-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f5f5f5;
+}
+
+.auth-container {
+  background: #fff;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+}
+
+.auth-container p {
+  margin-top: 10px;
+  color: #004aad;
+  cursor: pointer;
+  font-size: 14px;
+}

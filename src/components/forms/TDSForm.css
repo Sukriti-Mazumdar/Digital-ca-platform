@@ -1,0 +1,32 @@
+.tds-form {
+  background: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  max-width: 400px;
+}
+
+.tds-form h4 {
+  margin-bottom: 10px;
+}
+
+.tds-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.tds-form button {
+  background: #004aad;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tds-form button:hover {
+  background: #003080;
+}

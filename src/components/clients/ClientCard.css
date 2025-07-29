@@ -1,0 +1,23 @@
+.client-card {
+  flex: 1 1 200px;
+  background: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.client-card:hover {
+  transform: translateY(-3px);
+}
+
+.client-card h4 {
+  margin-bottom: 8px;
+  color: #004aad;
+}
+
+.client-card p {
+  color: #555;
+  font-size: 14px;
+}

@@ -1,0 +1,14 @@
+.client-dashboard {
+  padding: 20px;
+}
+
+.client-dashboard h2 {
+  margin-bottom: 20px;
+}
+
+.client-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,8 @@
+.stats-card {
+  flex: 1;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 6px;
+}

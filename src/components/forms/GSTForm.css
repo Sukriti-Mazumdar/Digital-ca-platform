@@ -1,0 +1,33 @@
+.gst-form {
+  background: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  max-width: 400px;
+}
+
+.gst-form h4 {
+  margin-bottom: 10px;
+}
+
+.gst-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.gst-form button {
+  background: #004aad;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.gst-form button:hover {
+  background: #003080;
+}
