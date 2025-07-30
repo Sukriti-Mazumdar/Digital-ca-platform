@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './src/components/common/Sidebar.css';
+import 'src/components/common/Sidebar.css';
 
 const Sidebar = () => {
   return (

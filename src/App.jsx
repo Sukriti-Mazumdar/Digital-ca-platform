@@ -1,20 +1,20 @@
 import React, { useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { AppProvider, AppContext } from './src/context/AppContext';
+import { AppProvider, AppContext } from './context/AppContext';
 
 // Common Components
-import Layout from './src/components/common/Layout';
+import Layout from 'src/components/common/Layout';
 
 
 // Pages
-import Dashboard from './src/components/dashboard/Dashboard';
-import AuthPage from './src/components/auth/AuthPage';
-import ClientDashboard from './src/components/clients/ClientDashboard';
-import FormSection from './src/components/forms/FormSection';
-import InvoiceCreation from './src/components/invoice/InvoiceCreation';
+import Dashboard from 'src/components/dashboard/Dashboard';
+import AuthPage from 'src/components/auth/AuthPage';
+import ClientDashboard from 'src/components/clients/ClientDashboard';
+import FormSection from 'src/components/forms/FormSection';
+import InvoiceCreation from 'src/components/invoice/InvoiceCreation';
 import ChartsSection from './src/components/charts/ChartsSection';
 
-import './src/App.css';
+import './App.css';
 
 // Protected Route Wrapper
 const ProtectedRoute = ({ children }) => {

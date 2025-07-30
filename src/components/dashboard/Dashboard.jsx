@@ -1,8 +1,8 @@
 import React from 'react';
-import StatsCard from './src/components/dashboard/StatsCard';
-import ReminderCard from './src/components/dashboard/ReminderCard';
-import { statsData, reminders } from './src/data/dummyData';
-import './src/components/dashboard/Dashboard.css';
+import StatsCard from 'src/components/dashboard/StatsCard';
+import ReminderCard from 'src/components/dashboard/ReminderCard';
+import { statsData, reminders } from 'src/data/dummyData';
+import 'src/components/dashboard/Dashboard.css';
 
 const Dashboard = () => (
   <div className="dashboard">

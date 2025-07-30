@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AppContext } from './src/context/AppContext';
-import './src/component/auth/LoginForm.css';
+import { AppContext } from 'src/context/AppContext';
+import 'src/component/auth/LoginForm.css';
 
 const LoginForm = () => {
   const { setUser } = useContext(AppContext);

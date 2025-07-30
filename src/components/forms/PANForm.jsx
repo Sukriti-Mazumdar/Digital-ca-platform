@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { validatePAN } from './src/utils/helpers';
-import './src/components/forms/PANForm.css';
+import { validatePAN } from 'src/utils/helpers';
+import 'src/components/forms/PANForm.css';
 
 const PANForm = () => {
   const [pan, setPan] = useState('');

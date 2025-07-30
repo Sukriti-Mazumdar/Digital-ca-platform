@@ -1,5 +1,5 @@
 import React from 'react';
-import './StatsCard.css';
+import 'src/components/dashboard/StatsCard.css';
 
 const StatsCard = ({ title, value }) => (
   <div className="stats-card">

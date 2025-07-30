@@ -1,6 +1,6 @@
 import React from 'react';
-import { formatDate } from './src/utils/helpers';
-import './src/components/dashboard/eminderCard.css';
+import { formatDate } from 'src/utils/helpers';
+import 'src/components/dashboard/eminderCard.css';
 
 const ReminderCard = ({ reminder }) => {
   return (

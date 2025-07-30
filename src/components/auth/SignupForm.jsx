@@ -1,5 +1,5 @@
 import React from 'react';
-import './src/component/auth/SignupForm.css';
+import 'src/component/auth/SignupForm.css';
 
 const SignupForm = () => {
   const handleSignup = (e) => {
