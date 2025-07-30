@@ -1,5 +1,5 @@
 import React from 'react';
-import './src/component/clients/ClientCard.css';
+import 'src/component/clients/ClientCard.css';
 
 const ClientCard = ({ name, gst }) => (
   <div className="client-card">

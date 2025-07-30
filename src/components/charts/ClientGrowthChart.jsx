@@ -1,13 +1,13 @@
 import React from 'react';
 import { PieChart, Pie, Tooltip, Cell } from 'recharts';
-import './src/components/chartsClientGrowthChart.css';
+import 'src/components/chartsClientGrowthChart.css';
 
 const data = [
   { name: "New Clients", value: 20 },
   { name: "Returning Clients", value: 10 },
 ];
 
-const COLORS = ["#004aad", "#82ca9d"];
+const COLORS = ["#004aad", "#b0e0c3ff"];
 
 const ClientGrowthChart = () => (
   <div className="chart">

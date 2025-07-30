@@ -6,17 +6,20 @@ import { AppProvider, AppContext } from './context/AppContext';
 import Layout from 'src/components/common/Layout';
 
 
+
 // Pages
 import Dashboard from 'src/components/dashboard/Dashboard';
 import AuthPage from 'src/components/auth/AuthPage';
 import ClientDashboard from 'src/components/clients/ClientDashboard';
 import FormSection from 'src/components/forms/FormSection';
 import InvoiceCreation from 'src/components/invoice/InvoiceCreation';
-import ChartsSection from './src/components/charts/ChartsSection';
+import ChartsSection from 'src/components/charts/ChartsSection';
+
+// Styles
 
 import './App.css';
 
-// Protected Route Wrapper
+
 const ProtectedRoute = ({ children }) => {
   const { user } = useContext(AppContext);
   return user ? children : <Navigate to="/auth" replace />;

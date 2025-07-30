@@ -1,6 +1,6 @@
 import React from 'react';
 import { formatCurrency } from './utils/helpers';
-import './components/invoice/InvoiceTotals.css';
+import 'src/components/invoice/InvoiceTotals.css';
 
 const InvoiceTotals = ({ total }) => {
   return (

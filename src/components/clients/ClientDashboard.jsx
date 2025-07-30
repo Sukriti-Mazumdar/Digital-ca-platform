@@ -1,7 +1,7 @@
 import React from 'react';
-import ClientCard from './src/component/clients/ClientCard';
-import DocumentUpload from './src/component/clients/DocumentUpload';
-import './src/component/clients/ClientDashboard.css';
+import ClientCard from 'src/component/clients/ClientCard';
+import DocumentUpload from 'src/component/clients/DocumentUpload';
+import 'src/component/clients/ClientDashboard.css';
 
 const clients = [
   { id: 1, name: 'John Doe', gst: 'Active' },
