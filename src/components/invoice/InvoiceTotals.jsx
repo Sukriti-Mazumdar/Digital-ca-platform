@@ -1,4 +1,4 @@
-import React from 'react';
+import
 import { formatCurrency } from './utils/helpers';
 import 'src/components/invoice/InvoiceTotals.css';
 

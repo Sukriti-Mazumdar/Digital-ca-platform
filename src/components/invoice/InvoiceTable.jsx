@@ -1,5 +1,6 @@
 import React from 'react';
-import 'src/component/invoice/InvoiceTable.css';
+
+import 'src/components/invoice/InvoiceTable.css';
 
 const InvoiceTable = () => (
   <table className="invoice-table">
